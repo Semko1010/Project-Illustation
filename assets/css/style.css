@@ -1,63 +1,56 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
-
 *{
-    margin: 0;
-    padding: 0;
+margin: 0;
+padding: 0;
 }
-body{
-    max-width: 1440px;
-    font-family: 'Merriweather', serif;
-    color: #202020;
-}
-/*------------------
-1. Page Header
 
-font-family: 'Lato', sans-serif;
+body{
+max-width: 1440px;
 font-family: 'Merriweather', serif;
--------------------*/
+color: #202020;
+}
+/*----------------
+1. Page Header/NAV
+-----------------*/
 
 header nav ul{
-    text-align: end;
-    list-style: none;
-}
-header nav ul li{
-    font-family: 'Lato', sans-serif;
-    display: inline-block;
-    padding: 2vh 2vh 0 0;
-    font-weight: 300;
-    cursor: pointer;
+text-align: end;
+list-style: none;
 }
 
-/*------------------
-1. Page Header/section_absurd
+header nav ul li{
 font-family: 'Lato', sans-serif;
-font-family: 'Merriweather', serif;
--------------------*/
+display: inline-block;
+padding: 2vh 2vh 0 0;
+font-weight: 300;
+cursor: pointer;
+}
+/*---------------------------
+1. Page Header/section_absurd
+-----------------------------*/
 .Section_absurd{
-    
-    background: url("../img/illustration1.gif");
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: 40%;
-    padding-bottom: 17vh;
+background: url("../img/illustration1.gif");
+background-repeat: no-repeat;
+background-position: right;
+background-size: 40%;
+padding-bottom: 17vh;
 }
 
 .Section_absurd h2{
-    font-size: 48px;
-    font-weight: normal;
-    margin: 0 0 0 10vw;
-    padding-top: 15vh;
-    
-    
+font-size: 48px;
+font-weight: normal;
+margin: 0 0 0 10vw;
+padding-top: 15vh;
 }
+
 .Section_absurd >p{
-    font-size: 18px;
-    font-weight: 100;
-    font-weight: normal;
-    width: 450px;
-    line-height: 30px;
-    padding-bottom: 10px;
-    margin:  0 0 0 10vw;
+font-weight: 100;
+font-weight: normal;
+font-size: 18px;
+width: 450px;
+line-height: 30px;
+padding-bottom: 10px;
+margin:  20px 0 0 10vw;
 }
 
 .buttons{
@@ -65,7 +58,6 @@ font-family: 'Merriweather', serif;
     font-weight: normal;
     margin-left: 10vw;
     cursor: pointer;
-    
     
 }
 .buttons p:first-child{
@@ -93,11 +85,9 @@ font-family: 'Merriweather', serif;
     color: white;
 }
 
-/*------------------
+/*--------------------------------
 1. Page Header/section_real_beauty
-font-family: 'Lato', sans-serif;
-font-family: 'Merriweather', serif;
--------------------*/
+---------------------------------*/
 .real_beauty{
     margin: 10vh 0 0 10vw;
     padding: 0 0 5vh 10vw;
@@ -127,11 +117,9 @@ font-family: 'Merriweather', serif;
     margin: 20px 10vw 0 auto;
 }
 
-/*------------------
+/*-----------------------------------
 2. Page Header/section_expressiveness
-font-family: 'Lato', sans-serif;
-font-family: 'Merriweather', serif;
--------------------*/
+------------------------------------*/
 .expressiveness{
     padding: 15vh 0 0 0;
     margin: 10vh 10vw 0 0vw;
@@ -156,11 +144,9 @@ font-family: 'Merriweather', serif;
 }
 
 
-/*------------------
+/*-------------------------------------------------
 2. Page Main/section_illustrations_for_applications
-font-family: 'Lato', sans-serif;
-font-family: 'Merriweather', serif;
--------------------*/
+--------------------------------------------------*/
 .illustrations_for_applications{
     margin: 20vh 0 0 0;
     text-align: center;
@@ -184,11 +170,9 @@ font-family: 'Merriweather', serif;
     width: 20vw;
 }
 
-/*------------------
+/*----------------------------------
 3. Page Main/section_examples_of_use
-font-family: 'Lato', sans-serif;
-font-family: 'Merriweather', serif;
--------------------*/
+-----------------------------------*/
 
 .examples_of_use{
     text-align: center;
@@ -296,5 +280,55 @@ animation: pulse 2s infinite;
 		transform: scale(0.95);
 		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
 	}
+}
+
+/*--------------------------------
+4.  Page Footer
+---------------------------------*/
+
+footer{
+    text-align: center;
+    padding-bottom: 50px;
+}
+footer h2{
+    font-size: 48px;
+    font-weight: normal;
+    padding: 3vh 0 30px 0;
+}
+footer p, span{
+    font-size: 12px;
+    padding-bottom: 20px;
+    cursor: pointer;
+    width: 100px;
+    margin: 0 auto;
+}
+footer p:nth-of-type(1){
+    color: gray;
 
 }
+footer p:nth-of-type(3){
+    color: gray;
+    
+}
+footer span:nth-of-type(1)::before{
+    content: "⚫️";
+    font-size: 4px;
+    padding-right: 5px;
+}
+footer span:nth-of-type(2)::before{
+    content: "🟣";
+    font-size: 4px;
+    padding-right: 5px;
+}
+footer span:nth-of-type(3)::before{
+    content: "🔵";
+    font-size: 4px;
+    padding-right: 5px;
+}
+footer span:nth-of-type(4)::before{
+    content: "🔴";
+    font-size: 4px;
+    padding-right: 5px;
+}
+
+
