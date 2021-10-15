@@ -38,7 +38,7 @@ font-family: 'Merriweather', serif;
     background: url("../img/illustration1.gif");
     background-repeat: no-repeat;
     background-position: right;
-    background-size: 30%;
+    background-size: 40%;
     padding-bottom: 17vh;
 }
 
@@ -46,6 +46,8 @@ font-family: 'Merriweather', serif;
     font-size: 48px;
     font-weight: normal;
     margin: 0 0 0 10vw;
+    padding-top: 15vh;
+    
     
 }
 .Section_absurd >p{
@@ -97,19 +99,19 @@ font-family: 'Lato', sans-serif;
 font-family: 'Merriweather', serif;
 -------------------*/
 .real_beauty{
-    margin: 0 0 0 10vw;
-    padding: 0 0 20vh 10vw;
+    margin: 10vh 0 0 10vw;
+    padding: 0 0 5vh 10vw;
     background: url("../img/illustration2.png");
     background-repeat: no-repeat;
     background-position: left;
-    background-size: 30%;
+    background-size: 35%;
 }
 
 .real_beauty h2:nth-of-type(1){
     font-size: 48px;
     font-weight: normal;
     text-align: end;
-    padding: 20vh 11vw 0 0;
+    padding: 12vh 11vw 0 0;
 }
 .real_beauty h2:nth-of-type(2){
     font-size: 48px;
@@ -130,12 +132,20 @@ font-family: 'Merriweather', serif;
 font-family: 'Lato', sans-serif;
 font-family: 'Merriweather', serif;
 -------------------*/
+.expressiveness{
+    padding: 15vh 0 0 0;
+    margin: 10vh 10vw 0 0vw;
+    background: url("../img/illustration3.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 35%;
+}
 .expressiveness h2{
     font-size: 48px;
     font-weight: normal;
     text-align: start;
     margin: 0 0 0 10vw;
-    padding-top: 10vh;
+    padding-top: 0vh;
 }
 .expressiveness p{
     font-size: 18px;
@@ -145,14 +155,7 @@ font-family: 'Merriweather', serif;
     margin: 20px 0 0 10vw;
 }
 
-.expressiveness{
-    padding: 0 0 0 0;
-    margin: 0 10vw 0 0vw;
-    background: url("../img/illustration3.png");
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: 30%;
-}
+
 /*------------------
 2. Page Main/section_illustrations_for_applications
 font-family: 'Lato', sans-serif;
