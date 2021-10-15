@@ -188,7 +188,13 @@ header nav ul li {
 
 .illustrations_for_applications div img {
     margin: 4vw;
-    width: 20vw;
+    width: 270px;
+}
+
+.illustrations_for_applications div img:hover {
+    box-shadow: 0px 0px 5px 4px rgba(211, 206, 206, 0.5);
+    -webkit-box-shadow: 0px 0px 5px 4px rgba(211, 206, 206, 0.5);
+    -moz-box-shadow: 0px 0px 5px 4px rgba(211, 206, 206, 0.5);
 }
 
 
@@ -215,12 +221,14 @@ header nav ul li {
 }
 
 .examples_of_use img {
-    width: 35vw;
+    width: 600px;
     margin: 2vw;
 }
 
 .examples_of_use img:hover {
-    box-shadow: 0 0 100px rgb(208, 208, 208);
+    box-shadow: 0px 0px 5px 4px rgba(211, 206, 206, 0.5);
+    -webkit-box-shadow: 0px 0px 5px 4px rgba(211, 206, 206, 0.5);
+    -moz-box-shadow: 0px 0px 5px 4px rgba(211, 206, 206, 0.5);
 }
 
 
