@@ -34,16 +34,19 @@ font-family: 'Lato', sans-serif;
 font-family: 'Merriweather', serif;
 -------------------*/
 .Section_absurd{
-    padding: 30vh 0 30vh 0;
+    
     background: url("../img/illustration1.gif");
     background-repeat: no-repeat;
     background-position: right;
-    background-size: 40%;
+    background-size: 30%;
+    padding-bottom: 17vh;
 }
+
 .Section_absurd h2{
     font-size: 48px;
     font-weight: normal;
-    margin: 0 0 20px 10vw;
+    margin: 0 0 0 10vw;
+    
 }
 .Section_absurd >p{
     font-size: 18px;
@@ -52,7 +55,7 @@ font-family: 'Merriweather', serif;
     width: 450px;
     line-height: 30px;
     padding-bottom: 10px;
-    margin-left: 10vw;
+    margin:  0 0 0 10vw;
 }
 
 .buttons{
@@ -60,6 +63,8 @@ font-family: 'Merriweather', serif;
     font-weight: normal;
     margin-left: 10vw;
     cursor: pointer;
+    
+    
 }
 .buttons p:first-child{
     display: inline-block;
@@ -93,18 +98,18 @@ font-family: 'Merriweather', serif;
 -------------------*/
 .real_beauty{
     margin: 0 0 0 10vw;
-    padding: 10vh 0 30vh 10vw;
+    padding: 0 0 20vh 10vw;
     background: url("../img/illustration2.png");
     background-repeat: no-repeat;
     background-position: left;
-    background-size: 35%;
+    background-size: 30%;
 }
 
 .real_beauty h2:nth-of-type(1){
     font-size: 48px;
     font-weight: normal;
     text-align: end;
-    margin: 30vh 11vw 0 0;
+    padding: 20vh 11vw 0 0;
 }
 .real_beauty h2:nth-of-type(2){
     font-size: 48px;
@@ -130,7 +135,7 @@ font-family: 'Merriweather', serif;
     font-weight: normal;
     text-align: start;
     margin: 0 0 0 10vw;
-    
+    padding-top: 10vh;
 }
 .expressiveness p{
     font-size: 18px;
@@ -141,7 +146,7 @@ font-family: 'Merriweather', serif;
 }
 
 .expressiveness{
-    padding: 15vh 0 0 0;
+    padding: 0 0 0 0;
     margin: 0 10vw 0 0vw;
     background: url("../img/illustration3.png");
     background-repeat: no-repeat;
