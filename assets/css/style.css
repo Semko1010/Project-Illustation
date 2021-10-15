@@ -6,7 +6,8 @@
 }
 body{
     max-width: 1440px;
-    
+    font-family: 'Merriweather', serif;
+    color: #202020;
 }
 /*------------------
 1. Page Header
@@ -14,6 +15,7 @@ body{
 font-family: 'Lato', sans-serif;
 font-family: 'Merriweather', serif;
 -------------------*/
+
 header nav ul{
     text-align: end;
     list-style: none;
@@ -40,13 +42,11 @@ font-family: 'Merriweather', serif;
 }
 .Section_absurd h2{
     font-size: 48px;
-    font-family: 'Merriweather', serif;
     font-weight: normal;
     margin: 0 0 20px 10vw;
 }
 .Section_absurd >p{
     font-size: 18px;
-    font-family: 'Merriweather', serif;
     font-weight: 100;
     font-weight: normal;
     width: 450px;
@@ -57,25 +57,33 @@ font-family: 'Merriweather', serif;
 
 .buttons{
     font-size: 14px;
-    font-family: 'Merriweather', serif;
     font-weight: normal;
     margin-left: 10vw;
+    cursor: pointer;
 }
 .buttons p:first-child{
     display: inline-block;
     border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0);
     background-color: black;
     color: white;
     padding: 12px 15px;
-    
+}
+.buttons p:first-child:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 .buttons p:last-child{
     display: inline-block;
-    border: 1px solid rgb(218, 218, 218);
     border-radius: 5px;
     background-color: white;
     padding: 12px 15px;
     margin: 0 5px;
+    box-shadow: 0 0 4px black;
+}
+.buttons p:last-child:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
 }
 
 /*------------------
@@ -83,23 +91,6 @@ font-family: 'Merriweather', serif;
 font-family: 'Lato', sans-serif;
 font-family: 'Merriweather', serif;
 -------------------*/
-.real_beauty h2{
-    width: 500px;
-    font-size: 48px;
-    font-family: 'Merriweather', serif;
-    font-weight: normal;
-    text-align: start;
-    margin: 30vh 10vw 0 37.5vw;
-}
-.real_beauty p{
-    font-size: 18px;
-    font-family: 'Merriweather', serif;
-    width: 450px;
-    line-height: 35px;
-    padding-bottom: 10px;
-    margin: 20px 10vw 0 auto;
-}
-
 .real_beauty{
     margin: 0 0 0 10vw;
     padding: 10vh 0 30vh 10vw;
@@ -108,6 +99,27 @@ font-family: 'Merriweather', serif;
     background-position: left;
     background-size: 35%;
 }
+
+.real_beauty h2:nth-of-type(1){
+    font-size: 48px;
+    font-weight: normal;
+    text-align: end;
+    margin: 30vh 11vw 0 0;
+}
+.real_beauty h2:nth-of-type(2){
+    font-size: 48px;
+    font-weight: normal;
+    text-align: end;
+    margin: 0 16vw 0 0;
+}
+.real_beauty p{
+    font-size: 18px;
+    width: 450px;
+    line-height: 35px;
+    padding-bottom: 10px;
+    margin: 20px 10vw 0 auto;
+}
+
 /*------------------
 2. Page Header/section_expressiveness
 font-family: 'Lato', sans-serif;
@@ -115,24 +127,166 @@ font-family: 'Merriweather', serif;
 -------------------*/
 .expressiveness h2{
     font-size: 48px;
-    font-family: 'Merriweather', serif;
     font-weight: normal;
     text-align: start;
-    margin: 20vh 10vw 0 0;
+    margin: 0 0 0 10vw;
+    
 }
 .expressiveness p{
     font-size: 18px;
-    font-family: 'Merriweather', serif;
     width: 400px;
     line-height: 35px;
     padding-bottom: 10px;
-    margin: 20px 10vw 0 0;
+    margin: 20px 0 0 10vw;
 }
 
 .expressiveness{
-    margin: 0 0 0 10vw;
+    padding: 15vh 0 0 0;
+    margin: 0 10vw 0 0vw;
     background: url("../img/illustration3.png");
     background-repeat: no-repeat;
     background-position: right;
-    background-size: 35%;
+    background-size: 30%;
+}
+/*------------------
+2. Page Main/section_illustrations_for_applications
+font-family: 'Lato', sans-serif;
+font-family: 'Merriweather', serif;
+-------------------*/
+.illustrations_for_applications{
+    margin: 20vh 0 0 0;
+    text-align: center;
+    color: #202020;
+}
+.illustrations_for_applications h1{
+    font-size: 48px;
+    font-family: 'Merriweather', serif;
+    font-weight: normal;
+    
+}
+.illustrations_for_applications p{
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: normal;
+    width: 800px;
+    margin: 20px auto
+}
+.illustrations_for_applications div img{
+    margin: 4vw;
+    width: 20vw;
+}
+
+/*------------------
+3. Page Main/section_examples_of_use
+font-family: 'Lato', sans-serif;
+font-family: 'Merriweather', serif;
+-------------------*/
+
+.examples_of_use{
+    text-align: center;
+}
+.examples_of_use h2{
+    font-size: 48px;
+    margin-top: 5vh;
+
+}
+.examples_of_use p{
+    font-size: 18px;
+    width: 600px;
+    margin: 20px auto;
+    line-height: 30px;
+    padding-bottom: 5vh;
+}
+.examples_of_use img{
+    width: 35vw;
+    margin: 2vw;
+}
+
+/*--------------------------------
+4. Page Main/download_illustration
+---------------------------------*/
+
+.download_illustration{
+    margin-top: 10vh;
+   text-align: center; 
+   padding-bottom: 5vh;
+}
+.download_illustration h2{
+   font-size: 48px;
+   font-weight: normal;
+}
+.download_illustration >p{
+    font-size: 18px;
+    line-height: 30px;
+    width: 750px;
+    margin: 20px auto;
+    padding-bottom: 50px;
+   
+}
+/*--------------------------------
+4.  Page Main/download_illustration/
+    memberShip DIV
+---------------------------------*/
+.download_illustration div{
+width: 280px;
+text-align: center;
+margin: 0 auto;
+background-color: #F5FBFE;
+border-radius: 10px;
+padding-bottom: 40px;
+}
+
+.download_illustration div p{
+padding: 2px 0;
+font-size: 13px;
+}
+
+.download_illustration div p:nth-child(1){font-size: 20px;
+font-weight: 500;
+padding-top: 4vh;
+}
+
+.download_illustration div p:nth-child(2){
+font-size: 45px;
+padding-top: 30px;
+}
+
+.download_illustration div p:nth-child(3){
+font-size: 14px;
+padding: 30px 0 20px 0;
+color: gray;
+}
+
+.download_illustration div p:last-child{
+font-size: 12px;
+padding: 12px 25px;
+margin: 15px auto 0 auto;
+color: white;
+background: #24bff2;
+width: 150px;
+border-radius: 5px;
+cursor: pointer;
+}
+.download_illustration div p:last-child:hover{
+box-shadow: 0 0 20px rgb(124, 124, 124);
+transform: scale(1);
+animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+	0% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+	}
+
+	70% {
+		transform: scale(1);
+		box-shadow: 0 0 0 10px #24bff2;;
+	}
+
+	100% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+	}
+
 }
