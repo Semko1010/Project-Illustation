@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    max-width: 1440px;
+    
+}
+/*------------------
+1. Page Header
+
+font-family: 'Lato', sans-serif;
+font-family: 'Merriweather', serif;
+-------------------*/
+header nav ul{
+    text-align: end;
+    list-style: none;
+}
+header nav ul li{
+    font-family: 'Lato', sans-serif;
+    display: inline-block;
+    padding: 2vh 2vh 0 0;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+/*------------------
+1. Page Header/section_absurd
+font-family: 'Lato', sans-serif;
+font-family: 'Merriweather', serif;
+-------------------*/
+.Section_absurd{
+    padding: 30vh 0 30vh 0;
+    background: url("../img/illustration1.gif");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 40%;
+}
+.Section_absurd h2{
+    font-size: 48px;
+    font-family: 'Merriweather', serif;
+    font-weight: normal;
+    margin: 0 0 20px 10vw;
+}
+.Section_absurd >p{
+    font-size: 18px;
+    font-family: 'Merriweather', serif;
+    font-weight: 100;
+    font-weight: normal;
+    width: 450px;
+    line-height: 30px;
+    padding-bottom: 10px;
+    margin-left: 10vw;
+}
+
+.buttons{
+    font-size: 14px;
+    font-family: 'Merriweather', serif;
+    font-weight: normal;
+    margin-left: 10vw;
+}
+.buttons p:first-child{
+    display: inline-block;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    padding: 12px 15px;
+    
+}
+.buttons p:last-child{
+    display: inline-block;
+    border: 1px solid rgb(218, 218, 218);
+    border-radius: 5px;
+    background-color: white;
+    padding: 12px 15px;
+    margin: 0 5px;
+}
+
+/*------------------
+1. Page Header/section_real_beauty
+font-family: 'Lato', sans-serif;
+font-family: 'Merriweather', serif;
+-------------------*/
+.real_beauty h2{
+    width: 500px;
+    font-size: 48px;
+    font-family: 'Merriweather', serif;
+    font-weight: normal;
+    text-align: start;
+    margin: 30vh 10vw 0 37.5vw;
+}
+.real_beauty p{
+    font-size: 18px;
+    font-family: 'Merriweather', serif;
+    width: 450px;
+    line-height: 35px;
+    padding-bottom: 10px;
+    margin: 20px 10vw 0 auto;
+}
+
+.real_beauty{
+    margin: 0 0 0 10vw;
+    padding: 10vh 0 30vh 10vw;
+    background: url("../img/illustration2.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 35%;
+}
+/*------------------
+2. Page Header/section_expressiveness
+font-family: 'Lato', sans-serif;
+font-family: 'Merriweather', serif;
+-------------------*/
+.expressiveness h2{
+    font-size: 48px;
+    font-family: 'Merriweather', serif;
+    font-weight: normal;
+    text-align: start;
+    margin: 20vh 10vw 0 0;
+}
+.expressiveness p{
+    font-size: 18px;
+    font-family: 'Merriweather', serif;
+    width: 400px;
+    line-height: 35px;
+    padding-bottom: 10px;
+    margin: 20px 10vw 0 0;
+}
+
+.expressiveness{
+    margin: 0 0 0 10vw;
+    background: url("../img/illustration3.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 35%;
+}
