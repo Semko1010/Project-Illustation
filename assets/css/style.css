@@ -1,66 +1,71 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
-*{
-margin: 0;
-padding: 0;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-body{
-max-width: 1440px;
-font-family: 'Merriweather', serif;
-color: #202020;
+body {
+    max-width: 1440px;
+    font-family: 'Merriweather', serif;
+    color: #202020;
 }
+
+
 /*----------------
 1. Page Header/NAV
 -----------------*/
 
-header nav ul{
-text-align: end;
-list-style: none;
+header nav ul {
+    text-align: end;
+    list-style: none;
 }
 
-header nav ul li{
-font-family: 'Lato', sans-serif;
-display: inline-block;
-padding: 2vh 2vh 0 0;
-font-weight: 300;
-cursor: pointer;
+header nav ul li {
+    font-family: 'Lato', sans-serif;
+    display: inline-block;
+    padding: 2vh 2vh 0 0;
+    font-weight: 300;
+    cursor: pointer;
 }
+
+
 /*---------------------------
 1. Page Header/section_absurd
 -----------------------------*/
-.Section_absurd{
-background: url("../img/illustration1.gif");
-background-repeat: no-repeat;
-background-position: right;
-background-size: 40%;
-padding-bottom: 17vh;
+
+.Section_absurd {
+    background: url("../img/illustration1.gif");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 40%;
+    padding-bottom: 17vh;
 }
 
-.Section_absurd h2{
-font-size: 48px;
-font-weight: normal;
-margin: 0 0 0 10vw;
-padding-top: 15vh;
+.Section_absurd h2 {
+    font-size: 48px;
+    font-weight: normal;
+    margin: 0 0 0 10vw;
+    padding-top: 15vh;
 }
 
-.Section_absurd >p{
-font-weight: 100;
-font-weight: normal;
-font-size: 18px;
-width: 450px;
-line-height: 30px;
-padding-bottom: 10px;
-margin:  20px 0 0 10vw;
+.Section_absurd>p {
+    font-weight: 100;
+    font-weight: normal;
+    font-size: 18px;
+    width: 450px;
+    line-height: 30px;
+    padding-bottom: 10px;
+    margin: 20px 0 0 10vw;
 }
 
-.buttons{
+.buttons {
     font-size: 14px;
     font-weight: normal;
     margin-left: 10vw;
     cursor: pointer;
-    
 }
-.buttons p:first-child{
+
+.buttons p:first-child {
     display: inline-block;
     border-radius: 5px;
     border: 1px solid rgb(0, 0, 0);
@@ -68,11 +73,13 @@ margin:  20px 0 0 10vw;
     color: white;
     padding: 12px 15px;
 }
-.buttons p:first-child:hover{
+
+.buttons p:first-child:hover {
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
 }
-.buttons p:last-child{
+
+.buttons p:last-child {
     display: inline-block;
     border-radius: 5px;
     background-color: white;
@@ -80,15 +87,18 @@ margin:  20px 0 0 10vw;
     margin: 0 5px;
     box-shadow: 0 0 4px black;
 }
-.buttons p:last-child:hover{
+
+.buttons p:last-child:hover {
     background-color: rgb(0, 0, 0);
     color: white;
 }
 
+
 /*--------------------------------
 1. Page Header/section_real_beauty
 ---------------------------------*/
-.real_beauty{
+
+.real_beauty {
     margin: 10vh 0 0 10vw;
     padding: 0 0 5vh 10vw;
     background: url("../img/illustration2.png");
@@ -97,19 +107,21 @@ margin:  20px 0 0 10vw;
     background-size: 35%;
 }
 
-.real_beauty h2:nth-of-type(1){
+.real_beauty h2:nth-of-type(1) {
     font-size: 48px;
     font-weight: normal;
     text-align: end;
     padding: 12vh 11vw 0 0;
 }
-.real_beauty h2:nth-of-type(2){
+
+.real_beauty h2:nth-of-type(2) {
     font-size: 48px;
     font-weight: normal;
     text-align: end;
     margin: 0 16vw 0 0;
 }
-.real_beauty p{
+
+.real_beauty p {
     font-size: 18px;
     width: 450px;
     line-height: 35px;
@@ -117,10 +129,12 @@ margin:  20px 0 0 10vw;
     margin: 20px 10vw 0 auto;
 }
 
+
 /*-----------------------------------
 2. Page Header/section_expressiveness
 ------------------------------------*/
-.expressiveness{
+
+.expressiveness {
     padding: 15vh 0 0 0;
     margin: 10vh 10vw 0 0vw;
     background: url("../img/illustration3.png");
@@ -128,14 +142,16 @@ margin:  20px 0 0 10vw;
     background-position: right;
     background-size: 35%;
 }
-.expressiveness h2{
+
+.expressiveness h2 {
     font-size: 48px;
     font-weight: normal;
     text-align: start;
     margin: 0 0 0 10vw;
     padding-top: 0vh;
 }
-.expressiveness p{
+
+.expressiveness p {
     font-size: 18px;
     width: 400px;
     line-height: 35px;
@@ -147,188 +163,206 @@ margin:  20px 0 0 10vw;
 /*-------------------------------------------------
 2. Page Main/section_illustrations_for_applications
 --------------------------------------------------*/
-.illustrations_for_applications{
+
+.illustrations_for_applications {
     margin: 20vh 0 0 0;
     text-align: center;
     color: #202020;
 }
-.illustrations_for_applications h1{
+
+.illustrations_for_applications h1 {
     font-size: 48px;
     font-family: 'Merriweather', serif;
     font-weight: normal;
-    
 }
-.illustrations_for_applications p{
+
+.illustrations_for_applications p {
     font-size: 18px;
     line-height: 30px;
     font-weight: normal;
     width: 800px;
     margin: 20px auto
 }
-.illustrations_for_applications div img{
+
+.illustrations_for_applications div img {
     margin: 4vw;
     width: 20vw;
 }
+
 
 /*----------------------------------
 3. Page Main/section_examples_of_use
 -----------------------------------*/
 
-.examples_of_use{
+.examples_of_use {
     text-align: center;
 }
-.examples_of_use h2{
+
+.examples_of_use h2 {
     font-size: 48px;
     margin-top: 5vh;
-
 }
-.examples_of_use p{
+
+.examples_of_use p {
     font-size: 18px;
     width: 600px;
     margin: 20px auto;
     line-height: 30px;
     padding-bottom: 5vh;
 }
-.examples_of_use img{
+
+.examples_of_use img {
     width: 35vw;
     margin: 2vw;
 }
+
 
 /*--------------------------------
 4. Page Main/download_illustration
 ---------------------------------*/
 
-.download_illustration{
+.download_illustration {
     margin-top: 10vh;
-   text-align: center; 
-   padding-bottom: 5vh;
+    text-align: center;
+    padding-bottom: 5vh;
 }
-.download_illustration h2{
-   font-size: 48px;
-   font-weight: normal;
+
+.download_illustration h2 {
+    font-size: 48px;
+    font-weight: normal;
 }
-.download_illustration >p{
+
+.download_illustration>p {
     font-size: 18px;
     line-height: 30px;
     width: 750px;
     margin: 20px auto;
     padding-bottom: 50px;
-   
 }
+
+
 /*--------------------------------
 4.  Page Main/download_illustration/
     memberShip DIV
 ---------------------------------*/
-.download_illustration div{
-width: 280px;
-text-align: center;
-margin: 0 auto;
-background-color: #F5FBFE;
-border-radius: 10px;
-padding-bottom: 40px;
+
+.download_illustration div {
+    width: 280px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #F5FBFE;
+    border-radius: 10px;
+    padding-bottom: 40px;
 }
 
-.download_illustration div p{
-padding: 2px 0;
-font-size: 13px;
+.download_illustration div p {
+    padding: 2px 0;
+    font-size: 13px;
 }
 
-.download_illustration div p:nth-child(1){font-size: 20px;
-font-weight: 500;
-padding-top: 4vh;
+.download_illustration div p:nth-child(1) {
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 4vh;
 }
 
-.download_illustration div p:nth-child(2){
-font-size: 45px;
-padding-top: 30px;
+.download_illustration div p:nth-child(2) {
+    font-size: 45px;
+    padding-top: 30px;
 }
 
-.download_illustration div p:nth-child(3){
-font-size: 14px;
-padding: 30px 0 20px 0;
-color: gray;
+.download_illustration div p:nth-child(3) {
+    font-size: 14px;
+    padding: 30px 0 20px 0;
+    color: gray;
 }
 
-.download_illustration div p:last-child{
-font-size: 12px;
-padding: 12px 25px;
-margin: 15px auto 0 auto;
-color: white;
-background: #24bff2;
-width: 150px;
-border-radius: 5px;
-cursor: pointer;
+.download_illustration div p:last-child {
+    font-size: 12px;
+    padding: 12px 25px;
+    margin: 15px auto 0 auto;
+    color: white;
+    background: #24bff2;
+    width: 150px;
+    border-radius: 5px;
+    cursor: pointer;
 }
-.download_illustration div p:last-child:hover{
-box-shadow: 0 0 20px rgb(124, 124, 124);
-transform: scale(1);
-animation: pulse 2s infinite;
+
+.download_illustration div p:last-child:hover {
+    box-shadow: 0 0 20px rgb(124, 124, 124);
+    transform: scale(1);
+    animation: pulse 2s infinite;
 }
 
 @keyframes pulse {
-	0% {
-		transform: scale(0.95);
-		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
-	}
-
-	70% {
-		transform: scale(1);
-		box-shadow: 0 0 0 10px #24bff2;;
-	}
-
-	100% {
-		transform: scale(0.95);
-		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
-	}
+    0% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+    }
+    70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 10px #24bff2;
+        ;
+    }
+    100% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
 }
+
 
 /*--------------------------------
 4.  Page Footer
 ---------------------------------*/
 
-footer{
+footer {
     text-align: center;
     padding-bottom: 50px;
 }
-footer h2{
+
+footer h2 {
     font-size: 48px;
     font-weight: normal;
     padding: 3vh 0 30px 0;
 }
-footer p, span{
+
+footer p,
+span {
     font-size: 12px;
     padding-bottom: 20px;
     cursor: pointer;
     width: 100px;
     margin: 0 auto;
 }
-footer p:nth-of-type(1){
-    color: gray;
 
-}
-footer p:nth-of-type(3){
+footer p:nth-of-type(1) {
     color: gray;
-    
 }
-footer span:nth-of-type(1)::before{
+
+footer p:nth-of-type(3) {
+    color: gray;
+}
+
+footer span:nth-of-type(1)::before {
     content: "⚫️";
     font-size: 4px;
     padding-right: 5px;
 }
-footer span:nth-of-type(2)::before{
+
+footer span:nth-of-type(2)::before {
     content: "🟣";
     font-size: 4px;
     padding-right: 5px;
 }
-footer span:nth-of-type(3)::before{
+
+footer span:nth-of-type(3)::before {
     content: "🔵";
     font-size: 4px;
     padding-right: 5px;
 }
-footer span:nth-of-type(4)::before{
+
+footer span:nth-of-type(4)::before {
     content: "🔴";
     font-size: 4px;
     padding-right: 5px;
 }
-
-
