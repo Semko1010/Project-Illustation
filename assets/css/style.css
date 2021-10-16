@@ -8,6 +8,7 @@ body {
     max-width: 1440px;
     font-family: 'Merriweather', serif;
     color: #202020;
+    margin: 0 auto;
 }
 
 
@@ -38,7 +39,7 @@ header nav ul li {
     background-repeat: no-repeat;
     background-position: right;
     background-size: 40%;
-    padding-bottom: 17vh;
+    padding: 0 0 17vh 0;
 }
 
 .Section_absurd h2 {
@@ -98,9 +99,17 @@ header nav ul li {
 1. Page Header/section_real_beauty
 ---------------------------------*/
 
+.beauty_div_h2_p {
+    width: 550px;
+    padding: 14vh 0 0 0;
+    margin-right: 5vw;
+    margin-left: auto;
+    text-align: start;
+}
+
 .real_beauty {
     margin: 10vh 0 0 10vw;
-    padding: 0 0 5vh 10vw;
+    padding: 0 0 5vh 0vw;
     background: url("../img/illustration2.png");
     background-repeat: no-repeat;
     background-position: left;
@@ -110,24 +119,13 @@ header nav ul li {
 .real_beauty h2:nth-of-type(1) {
     font-size: 48px;
     font-weight: normal;
-    text-align: end;
-    padding: 12vh 11vw 0 0;
-}
-
-.real_beauty h2:nth-of-type(2) {
-    font-size: 48px;
-    font-weight: normal;
-    text-align: end;
-    margin: 0 16vw 0 0;
 }
 
 .real_beauty p {
     font-weight: 200;
     font-size: 18px;
-    width: 450px;
     line-height: 35px;
-    padding-bottom: 10px;
-    margin: 20px 10vw 0 auto;
+    padding-top: 20px;
 }
 
 
@@ -136,12 +134,12 @@ header nav ul li {
 ------------------------------------*/
 
 .expressiveness {
-    padding: 15vh 0 0 0;
-    margin: 10vh 10vw 0 0vw;
+    padding: 19.2vh 0 0 0;
+    margin: 10vh 5vw 0 0vw;
     background: url("../img/illustration3.png");
     background-repeat: no-repeat;
     background-position: right;
-    background-size: 35%;
+    background-size: 38%;
 }
 
 .expressiveness h2 {
