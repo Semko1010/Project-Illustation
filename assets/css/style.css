@@ -39,14 +39,14 @@ header nav ul li {
     background-repeat: no-repeat;
     background-position: right;
     background-size: 40%;
-    padding: 0 0 17vh 0;
+    padding: 0 0 20vh 0;
 }
 
 .Section_absurd h2 {
     font-size: 48px;
     font-weight: normal;
     margin: 0 0 0 10vw;
-    padding-top: 15vh;
+    padding-top: 20vh;
 }
 
 .Section_absurd>p {
@@ -134,7 +134,7 @@ header nav ul li {
 ###########################################*/
 
 .expressiveness {
-    padding: 19.2vh 0 0 0;
+    padding: 27vh 0 0 0;
     margin: 10vh 5vw 0 0vw;
     background: url("../img/illustration3.png");
     background-repeat: no-repeat;
