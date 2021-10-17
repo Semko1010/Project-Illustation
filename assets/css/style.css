@@ -100,9 +100,9 @@ header nav ul li {
 ###########################################*/
 
 .beauty_div_h2_p {
-    width: 550px;
+    width: 450px;
     padding: 14vh 0 0 0;
-    margin-right: 5vw;
+    margin-right: 10vw;
     margin-left: auto;
     text-align: start;
 }
@@ -185,8 +185,8 @@ header nav ul li {
 }
 
 .illustrations_for_applications div img {
-    margin: 4vw;
-    width: 270px;
+    margin: 50px;
+    width: 350px;
 }
 
 .illustrations_for_applications div img:hover {
@@ -220,7 +220,7 @@ header nav ul li {
 
 .examples_of_use img {
     width: 600px;
-    margin: 2vw;
+    margin: 35px;
 }
 
 .examples_of_use img:hover {
